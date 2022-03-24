@@ -1,0 +1,74 @@
+<head>
+    <style>
+    @font-face {
+        font-family: Bebon;
+        src:url("BebonVF.woff");
+    }
+
+    * {
+        margin-left: 14px;
+        background-color: darkgreen;
+        box-sizing: border-box;
+    }
+    
+    .column {
+	float: left;
+	padding: 10px;
+    }
+  
+    .left {
+	    width: 35%;
+    }
+  
+    .right {
+	    width: 40%;
+    }
+
+    .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+    }
+
+    h1{
+        font-size: 200px;
+        margin-bottom: -20px;
+        font-family: Bebon;
+        color: antiquewhite;
+        font-variation-settings: 'wdth' 100;
+        transition-duration: .2s, .5s;
+        transition-timing-function: linear;
+    }
+
+    h1:hover {
+        font-variation-settings: 'wdth' 200;
+        color: olivedrab;
+        text-shadow: 10px 10px 20px rgb(57, 110, 14);
+    }
+
+    h2{
+        font-size: 40px;
+        font-family: Bebon;
+        color: antiquewhite;
+        line-height: 40px;
+    }
+    </style>
+    </head>
+    
+    
+    <body>
+        <h1>BEBON</h1>
+        <div class="row">
+            <div class="column left" style="margin-left: 15%;">
+                <h2>* IT IS AN ALL CAPS ONLY TYPE.</h2>
+                <h2>* I WILL WORK MORE ON PUNCTUATION LATER.</h2>
+                <h2>* HOVER THE TITLE.</h2>
+            </div>
+            <div class="column right">
+                <h2>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z . -</h2>
+                <h1>KKK</h1>
+            </div>
+        </div>
+
+    </body>
+    </html>
